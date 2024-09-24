@@ -1,0 +1,92 @@
+.parallax{
+    position: relative;
+    height: 500px;
+    background-image: url("cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -9999;
+}
+
+
+img{
+    border-radius: 20px;
+}
+
+.content {
+    animation: onLoad 1s ease forwards;
+    position: relative; 
+    align-self: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #f4f3ee;
+}
+.content h2{
+    color: #f4f3ee;
+}
+
+
+.section-1{
+    background-color: #463f3a;
+    padding: 10px;
+}
+
+
+.section-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section-2 h1, h2{
+    color: #8a817c;
+}
+.section-2 img{
+    height: 100px;
+    object-fit: contain;
+    
+}
+
+
+input[type=text], input[type=email], textarea{
+    background-color: transparent;
+    color: #f4f3ee;
+    min-height: 50px;
+    border-radius: 10px;
+    border: 2px solid #f4f3ee;
+    box-shadow: 0px;
+    margin-top: 5px;
+    padding: 10px;
+}
+input[type=submit] {
+    width: 100%;
+    margin-top: 5px;
+}
+::placeholder{
+    color: #bcb8b1;
+}
+
+
+.contactanos {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+}
+
+
+.contactanos img{
+    top: 100px;
+    width: 50%;
+    padding: 10px;
+    align-self: center;
+}
